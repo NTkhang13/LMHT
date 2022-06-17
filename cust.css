@@ -1,0 +1,406 @@
+ul, li , p{
+    margin:0px;
+    padding:0px;
+}
+.brand img{
+    
+    max-width: 111%;
+}
+.brandd img{
+    padding-left: 0px;
+    max-width: 397%;
+    background: orange;
+}
+.branddd img{
+    padding-right: 60px;
+    max-width: 140% ;
+}
+.brandddd img{
+    position: relative;
+    max-width: 100%;
+}
+
+.bg-light {
+    background-color: #101215!important;
+}
+ 
+#header .container-fluid .row .col-md-12{
+
+    background: #101215;
+    
+}
+
+#header nav ul li.nav-item{
+ 
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+.nav-item {
+    display: block;
+}
+#header nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#fce5b9,#c19e68);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: tan;
+    font-weight: 600;
+}
+#header nav ul li a.active{
+    color: #f9ae00;
+    border-bottom:2px solid #f9ae00 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: linear-gradient(#fce5b9,#c19e68);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: tan;
+    font-weight: 600;
+}
+#header nav ul li a:hover{
+    color: #f9ae00;
+    border-bottom:2px solid #f9ae00 ;
+    display: block;
+}  
+#nav-menu ul{
+    
+    font-family: sans-serif;
+    list-style-type: none !important;
+  
+}
+#nav-menu a{
+    text-decoration: none;
+    color: #fca170;
+}
+
+
+
+
+
+
+
+
+#main-header{
+    background: url(images/blurred1.jpg) no-repeat;
+
+    
+    
+
+}
+
+
+
+
+.center{
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+
+    
+}
+.box-lotrinhhoc img{
+    width: 100%;
+    border-radius: 35px;
+}
+a{
+    text-decoration: none;
+    color: #1398e6;
+    background-color: transparent;
+    text-align: left;
+  
+}
+.top-box-lotrinh span {
+    position: absolute;
+    /* left: 0; */
+    /* top: 0; */
+    display: flex;
+    background: red;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 999;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+
+#home-box{
+    background:white;
+}
+#home-box i{
+    color:red;
+}
+.top-box-lotrinh:hover {
+    transform: scale(1.05);
+}
+ul, li, p {
+    margin: 20px;
+    padding: 0px;
+}
+
+#lotrinhhoc .container .row .col-md-12 .text-center .xemthem  {
+    
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+    width: 180px;
+    height: 50px;
+    line-height: 52px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 30px;
+    display: inline-block;
+    background: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/footer/playForFree.png) no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+}
+#lotrinhhoc .container .row .col-md-12 .text-center .xemthem a{
+    text-decoration: none;
+    color: #060808;
+    background-color: transparent;
+    text-align: left;
+}
+
+#lotrinhhoc .container .row .col-md-3 {
+    flex: 0 0 auto;
+    min-width: 33%;
+}
+
+#footer{
+    padding: 10px 0 50px;
+    margin-top: -10px;
+    color: #fff;
+    background: #101215;
+}
+#footer .bottom{
+    width: 1000px;
+    font: 12px arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 200px auto 0;
+}
+.logo img{
+   
+    display: inline-block;
+
+}
+
+
+
+
+#lotrinhhoc .container .row .col-md-3 .center .box-lotrinhhoc .content-box-lotrinh  a{
+    text-decoration: none;
+    color: #000000;
+    background-color: transparent;
+    text-align: left;
+    font-size: 25px;
+
+
+}
+
+
+#lotrinhhoc .container .row .col-md-3 .center .box-lotrinhhoc .content-box-lotrinh  h3{
+    font-size: 100% ;
+}
+#info-footer{
+    margin-top: 30px;
+}
+
+#info-footer .container-fluid .row .col-md-12  {
+    background: #101215;
+    padding: 45px;
+
+}
+
+
+#copyright .container-fluid .row .col-12{
+    background: #101215;
+    color: aliceblue;
+}
+
+#social-links .container-fluid .row .col-md-12  {
+    padding: 10px 0 50px;
+    margin-top: -10px;
+    background: #101215;
+    
+}
+#social-links .container-fluid .row .col-md-12 .text-center a{
+    text-decoration: none;
+    color: #ececec;
+    background-color: transparent;
+    text-align: left;
+    color: aliceblue;
+}
+#social-links .container-fluid .row .col-md-12 .text-center .playfreegame{
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    line-height: 52px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 30px;
+    display: inline-block;
+    background: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/footer/playForFree.png) no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+}
+#social-links .container-fluid .row .col-md-12 .text-center .age-lmht {
+    width: 116px;
+    height: 51px;
+    line-height: 52px;
+    font-size: 16px;
+    vertical-align: middle;
+    display: inline-block;
+    background: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/footer/vn-12.png) no-repeat;
+    background-size: contain;
+}
+/**index**/
+main #category-header{
+    background-image: url(images/clear2.jpg)  ;
+    background-repeat: no-repeat ;
+    min-height: 250px;
+}
+#category-header .container .center .slider .banner img{
+    background-image: url(images/defaultbanner.jpg);
+    width: 100%;
+
+}
+#category-header .container .row .center .slider .Trangchu  a{
+    font-size: 100%;
+    color: #9c9e9d;
+    font-weight: 600;
+    margin-right: 15px;
+}
+#category-header .container .row .center .slider .Trangchu a i{
+    
+    font-size: 11px;
+    color: #9c9e9d;
+}
+#category-header .container .row .center .slider .Trangchu  a span{
+    color: #ececec;
+}
+
+
+#category2-header  .container .row .text-center  .col-md-12 .box a{
+    color: #000000;
+    font-size: 34px;
+    padding-bottom: 11px;
+    background: #c19e68;
+}
+#homebox .container .row .col-md-4 .imgbox  a img {
+    vertical-align: middle;
+    width: 100%;
+    margin-top: 40px;
+}
+#homebox .container .row .col-md-12 .text-center .center a  i{
+    background: #c19e68;
+    color: black;
+    font-size: 250%;
+}
+#homebox .container .row .col-md-5 .info {
+    color: #1398e6;
+    margin-top: 40px;
+}
+#homebox .container .row .col-md-5 .info h4 {
+    color: #000000;
+    
+}
+#homebox .container .row .col-md-5 .info p{
+    color: #000000;
+}
+/**category**/
+main #category2-header {
+    background-image: url(images/clear2.jpg);
+    background-repeat: no-repeat ;
+    min-height: 250px;
+}
+ .banner2  img{
+    background-image: url(images/defaultbanner.jpg);
+    width: 100%;
+
+}
+#category2-header .container .row .center .slider .Trangchu  a{
+    font-size: 100%;
+    color: #9c9e9d;
+    font-weight: 600;
+    margin-right: 15px;
+}
+#category2-header .container .row .center .slider .Trangchu a i{
+    
+    font-size: 11px;
+    color: #9c9e9d;
+}
+#category2-header .container .row .center .slider .Trangchu  a {
+    color: #9c9e9d;
+}
+#category2-header .container .row .center .slider .Trangchu  i {
+    font-size: 11px;
+    color:#9c9e9d ;
+}
+#category2-header .container .row .center .slider .Trangchu  a span{
+    color: #ececec;
+}
+#newsDescBar .container .row{
+    background: #061c25;
+    color: #fff;
+    position: relative;
+    padding: 15px 25px;
+    margin: 0 0 3.3rem;
+    border-top-left-radius:  20px ;
+    border-bottom-right-radius: 20px;
+}
+#menu1 .container .row .col-md-3 .center .box-menu .top-box-menu .braandd img{
+    width: 100%;
+    border-radius: 35px;
+}
+#menu1 .container .row .col-md-3 .center .box-menu  .content-box-menu h3{
+    font-size: 100% ;
+    color: black;
+}
+#menu1 .container .row .col-md-3{
+    flex: 0 0 auto;
+    width: 33%;
+}
+
+#menu1 .container .row .col-md-3 .center .box-menu a{
+    color: #0ac6e4;
+    font-size: 100%;
+    font-weight: 600;
+}
+#menu1 .container .row .col-md-3 .center .box-menu .content-box-menu p{
+    color: #000000;
+    margin: 14px;
+    padding: 01px;
+}
+#menu1 .container .row .col-md-3 .center .box-menu a .content-box-menu h3  {
+    color: black;
+}
+#gamesea .container .row  .col-md-12 .left{
+    background: #061c25;
+    color: #fff;
+    position: relative;
+    padding: 15px 25px;
+    margin: 0 0 3.3rem;
+    border-top-left-radius:  20px ;
+    border-bottom-right-radius: 20px;
+}
+#contentBox .container .row .col-md-12 .text-center {
+    border: 2px solid #acacac;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding :15px 15px;
+}
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 1px;
+}
